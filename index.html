@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <section class="">
+    <img src="./logos/bannerAdidas.jpeg" alt="" class="w-100 img-fondo">
+  </section>
+  <section class="container" style="position: relative;">
+    <nav class="row d-flex py-5">
+      <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-between align-items-center mb-3">
+        <a href="#"><img src="./logos/logo.png" alt="Logo" class="logo"></a>
+      </div>
+        <div class="col-12 col-md-6 parrafo">
+          <div class="align-items-center d-flex flex-row-reverse acceder">
+            <a href="./login.html" class="text-white text-decoration-none">Acceder
+            <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+          </div>
+        </div>
+      </nav>
+ 
+    <main>
+      <div class="row d-flex justify-content-center align-items-center main">
+      <div class="col-12 col-md-6 text-banner">
+        <h1 class="title-banner">Herramientas que te ayudan a llevar tu negocio al siguiente nivel</h1>
+        <a href="#"><img src="./logos/flecha.png" class="flecha"></a>
+        <!-- Contactos -->
+
+        <div class="row pt-5">
+
+          <div class="col-12 col-md-4 d-flex gap-3">
+            <div>
+              <i class="fa-solid fa-envelope-open-text"></i>
+            </div>
+            <div>
+              <h3 class="info-text">CONTÁCTANOS</h3>
+              <p class="info-descrip">rodaaas98@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 d-flex gap-3">
+            <div>
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <div>
+              <h3 class="info-text">TELÉFONOS</h3>
+              <p class="info-descrip">3178887465</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 d-flex gap-3">
+            <div>
+              <i class="fa-solid fa-house-chimney"></i>
+            </div>
+            <div>
+              <h3 class="info-text">DIRECCIÓN</h3>
+              <p class="info-descrip">Carrera 100 #5 - 169 Edificio Oasis Ofic 715</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="col-12 py-4 px-4 text-center">
+          <div class="linea-media"></div>
+        </div>
+
+        <div class="ps-3 politicas">
+          <p>© 2021 STP Networks - Todos los derechos reservados</p>
+          <p>Política de tratamiento de datos personales de STP Networks S.A.S</p>
+          <p>Acceso de colaboradores <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 ">
+        <div class="row align-items-center d-flex justify-content-center">
+          
+          <div class="col-12 col-md-6 text-center">
+            <div class="cards-principal" onmouseover="mostrarInf(this)" onmouseout="ocultarInf(this)">
+              <img src="./img/nike.jpeg" alt="Nike" class="w-50 cards-img pt-5">
+              <h3 class="my-3 cards-title-nike">Nike</h3>
+              <div class="descripcion">
+                <p class="px-4 text-substring-corto" id="nike"></p>
+                <button class="w-100 cards-button"><a href="https://www.nike.com/es/"><i class="fa-solid fa-paper-plane"></i></a></button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 text-center">
+            <div class="cards-principal" onmouseover="mostrarInf(this)" onmouseout="ocultarInf(this)">
+              <img src="./img/fila.jpeg" alt="Fila" class="w-50 cards-img pt-5">
+              <h3 class="my-3 cards-title-fila">Fila</h3>
+              <div class="descripcion">
+                <p class="px-4 text-substring-large" id="fila"></p>
+                <button class="w-100 cards-button-fila"><a href="https://filalatin.com/"><i class="fa-solid fa-paper-plane"></i></a></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 text-center  mt-4 py-4">
+            <div class="cards-principal" onmouseover="mostrarInf(this)" onmouseout="ocultarInf(this)">
+              <img src="./img/puma.png" alt="Puma" class="w-50 cards-img pt-5">
+              <h3 class="my-3 cards-title-puma">Puma</h3>
+              <div class="descripcion">
+                <p class="px-4 text-substring-corto" id="puma"></p>
+                <button class="w-100 cards-button"><a href="https://eu.puma.com/es/es/home"><i class="fa-solid fa-paper-plane"></i></a></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 text-center  mt-4 py-4">
+            <div class="cards-principal" onmouseover="mostrarInf(this)" onmouseout="ocultarInf(this)">
+              <img src="./img/adidas.jpeg" alt="Adidas" class="w-50 cards-img pt-5">
+              <h3 class="my-3 cards-title-adidas">Adidas</h3>
+              <div class="descripcion">
+                <p class="px-4 text-substring-corto" id="adidas"></p>
+                <button class="w-100 cards-button"><a href="https://www.adidas.co/"><i class="fa-solid fa-paper-plane"></i></a></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-12 col-md-6 text-center  mt-4 py-4">
+            <div class="cards-principal" onmouseover="mostrarInf(this)" onmouseout="ocultarInf(this)">
+              <img src="./img/reebok.png" alt="Reebok" class="w-50 cards-img pt-5">
+              <h3 class="my-3 cards-title-reebok">Reebok</h3>
+              <div class="descripcion">
+                <p class="px-4 text-substring-large" id="reebok"></p>
+                <button class="w-100 cards-button-reebok"><a href="https://www.reebok.co/"><i class="fa-solid fa-paper-plane"></i></a></button>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-12 col-md-6 text-center  mt-4 py-4">
+            <div class="cards-principal" onmouseover="mostrarInf(this)" onmouseout="ocultarInf(this)">
+              <img src="./img/thenorthface.png" alt="The North Face" class="w-50 cards-img pt-5">
+              <h3 class="my-3 cards-title-tnf">The North Face</h3>
+              <div class="descripcion">
+                <p class="px-4 text-substring-corto" id="tnf"></p>
+                <button class="w-100 cards-button-tnf"><a href="https://www.thenorthface.com.co/"><i class="fa-solid fa-paper-plane"></i></a></button>
+              </div>
+            </div>
+          </div> -->
+
+
+        </div>
+      </div>
+    </div>
+    </main>
+  </section>
+
+  <!-- JavaScript-->
+  <script src="main.js"></script>
+  <!-- Bootstrap 5-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>

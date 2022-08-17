@@ -1,0 +1,189 @@
+/* Importando Estilos de fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Manrope:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{font-size: 62.5%;
+}
+.descripcion{
+    display: none;
+}
+.img-fondo{
+    object-fit: cover;
+    height: 100vh;
+    position: absolute;
+}
+.acceder{
+    font-size:1.8rem;
+    font-weight: 600;
+}
+.logo{
+    width: 9rem;
+    border-radius: 50%;
+}
+.flecha{
+    width: 12rem;
+}
+.flecha:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.parrafo{
+    color: #fff;
+    text-shadow: 1px 1px 4px #000, 0 0 25px #000, 0 0 5px #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main{
+    position: absolute;
+    top: 24rem;
+    right: 3rem ;
+}
+.cards-principal{
+    background:#efefef;
+    min-height: 388px;
+    width: 260px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 37px 5px #000; 
+    border-radius: 15px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.cards-img{
+    border-radius: 50%;
+    height: 125px;
+}
+.cards-button{
+    border: none;
+    height: 56px;
+    background-color: #000;
+    border-radius: 0 0 15px 0;
+}
+.cards-button-fila{
+    border: none;
+    height: 56px;
+    background: rgb(221,3,35);
+    background: linear-gradient(162deg, rgba(221,3,35,1) 16%, rgba(0,41,101,1) 52%);
+    border-radius: 0 0 15px 0;
+}
+.cards-button-reebok{
+    border: none;
+    height: 56px;
+    background: rgb(0,41,101);
+    background: linear-gradient(168deg, rgba(0,41,101,1) 0%, rgba(221,3,35,0.9724264705882353) 45%, rgba(0,41,101,1) 92%);
+    border-radius: 0 0 15px 0;
+}
+.cards-button-tnf{
+    border: none;
+    height: 56px;
+    background-color: #dd0323;
+    border-radius: 0 0 15px 0;
+}
+.cards-title-nike{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 1px 1px 4px #000, 0 0 25px #000, 0 0 5px #000;
+}
+.cards-title-adidas{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 1px 1px 4px #000, 0 0 25px #000, 0 0 5px #000;
+}
+.cards-title-puma{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 1px 1px 4px #000, 0 0 25px #000, 0 0 5px #000;
+}
+.cards-title-fila{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 1px 4px 4px #002965, 0 0 31px #002965, 0 0 10px #dd0323;
+}
+.cards-title-reebok{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 1px 4px 4px #002965, 0 0 31px #dd0323, 0 0 10px #002965;
+}
+.cards-title-tnf{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 1px 4px 4px #da2428, 0 0 31px #da2428, 0 0 10px #da2428;
+}
+.fa-paper-plane:before{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.text-substring-corto{
+    font-weight: 400;
+    padding: 4.5px;
+}
+.text-substring-large{
+    font-weight: 400;
+    padding: 13.5px;
+}
+.text-banner{
+    position: relative;
+    bottom: 17rem;
+}
+.title-banner{
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px #efefef, 0 0 25px #efefef, 0 0 5px #efefef;
+}
+.info-text{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000, 0 0 25px #000, 0 0 5px #000;
+}
+.info-descrip{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000, 0 0 25px #000, 0 0 5px #000;
+} 
+.linea-media{
+    height: 2px;
+    width: 100%;
+    border-radius: 999px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.politicas{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000, 0 0 25px #000, 0 0 5px #000;
+}
+/* Iconos */
+.fa-mobile-android-alt:before, .fa-mobile-screen:before,
+.fa-envelope-open-text:before,
+.fa-house-chimney:before{
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000, 0 0 25px #000, 0 0 8px #000;
+}
+@media (max-width: 760px){
+    .text-banner{
+        display: none;
+    }
+    .logo{
+        width: 7rem;
+    }
+    .parrafo{
+        justify-content: center;
+    }
+}

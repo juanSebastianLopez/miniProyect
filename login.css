@@ -1,0 +1,129 @@
+/* Importando Estilos de fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Manrope:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000, 0 0 25px #000, 0 0 5px #000;
+}
+html{font-size: 62.5%;
+}
+.img-fondo{
+    height: 100vh;
+    position: absolute;
+}
+.logo{
+    width: 8rem;
+    border-radius: 50%;
+}
+.img-form{
+    border-radius: 50%;
+    width: 168px;
+    height: 168px;
+}
+.container-title{
+    font-size: 5.2rem;
+    line-height: 52px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #000, 0 0 25px #02feff, 0 0 5px #84f870;
+}
+.container-form{
+    width: 396px;
+    height: 492px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 23px 12px #84f870;
+    background: linear-gradient(166deg, #84f870 16%, #000 54%);
+}
+.text-form{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 18px;
+}
+input{
+    width: 286px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 23px 5px rgba(0,0,0,0.24);
+    border: none;
+    padding-left: 8px;
+    font-size: 1.3rem;
+    text-shadow: none;
+    color: #000;
+    font-weight: 600;
+}
+input:hover{
+    padding-left: 8px;
+    color: #000;
+    text-shadow: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.fa-user-astronaut{
+    display: none;
+    position: absolute;
+    bottom: 20rem;
+    right: 44.5rem;
+    font-size: 1.9rem;
+}
+.fa-lock{
+    display: none;
+    position: absolute;
+    bottom: 14.2rem;
+    right: 44.5rem;
+    font-size: 1.9rem;
+}   
+.form-restablecer{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
+    text-shadow: 1px 1px 2px #000, 0 0 25px #96b487, 0 0 5px #96b487;
+}
+.btn-form{
+    position: absolute;
+    bottom: 0px;
+    width: 39.5rem;
+    height: 56px;
+    border: none;
+    background: #000;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.devuelvis{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000, 0 0 25px #02feff, 0 0 5px #84f870;
+}
+.devuelvis:hover{
+    color: #84f870;
+    text-shadow: 1px 1px 2px #000, 0 0 25px #02feff, 0 0 5px #000;
+}
+.fa-left-long:before{
+    text-shadow: 1px 1px 2px #000, 0 0 25px #02feff, 0 0 5px #84f870;
+}
+/* Media Querys */
+@media (max-width: 760px){
+    .img-fondo{
+        width: 100vw;
+        object-fit: cover;
+        object-position: center;
+    }
+    .container-form{
+        max-width: 360px;
+        height: 480px;text-align: center;
+    }
+    .fa-lock{
+        right: 30rem;
+        bottom: 13.5rem;
+    }
+    .fa-user-astronaut{
+        right: 30rem;
+        bottom: 19.4rem;
+    }
+    .btn-form{
+        width: auto;
+    }
+}

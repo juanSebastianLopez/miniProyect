@@ -1,0 +1,139 @@
+/* Importando Estilos de fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Manrope:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{font-size: 62.5%;
+}
+body{
+    background-color: #dfdfdf;
+}
+.logo{
+    width: 8rem;
+    border-radius: 50%;
+    border: 1px solid #848484;
+}
+.dropdown-img{
+    width: 4rem;
+    filter: brightness(130%);
+}
+.dropdown-toggle::after{
+    font-size: 2rem;
+}
+.input-search{
+    width: 323px;
+    height: 4.8rem;
+    padding: 8px 8px 8px 0;
+    border: none;
+    padding-left: 5px;
+}
+.input-search:focus{
+    border-bottom: 1px solid #0d0c0c;
+    outline: none;
+    padding-left: 5px;
+}
+.banner{
+    background-image: url(./logos/bannerNeymar1.jpg);
+    height: 235px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(120%);
+    box-shadow: 8px 8px 19px 0px #c9fe42;
+}
+.text{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.fa-user-astronaut:before,
+.fa-star:before,
+.fa-person-walking-arrow-right:before{
+    color: #bcbccb;
+
+}
+.titulo-product{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 20px;
+}
+.product-ancla{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.product-ancla:hover{
+    color: #000;
+    text-shadow: none;
+}
+.text-acordeon{
+    color: #000;
+}
+.accordion-button:focus{
+    border: none;
+}
+.descripcion{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.title-cards{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.descripcion-cards{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+.img-cards{
+    width: 25rem;
+    height: 324px;
+    object-fit: cover;
+}
+.precio{
+    color:#c7c7c7;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.titulo-cards{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.0rem;
+}
+.btn-cards{
+    width: 100%;
+    height: 5rem;
+    background-color: #c9fe42;
+    border: none;
+    font-size: 1.5rem;
+    transition: .8s;
+}
+.btn-cards:hover{
+    transform: scale(1.1);
+    transition: .6s;
+    color: #c9fe42;
+    background-color: #000;
+}
+.footer{
+    border-top: 1px solid #bcbccb;
+    height: 6.8rem;
+}
+.footer-error{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.footer-info{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.fa-font-awesome:before{
+    font-size: 1.8rem;
+}
